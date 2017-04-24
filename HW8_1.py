@@ -2,7 +2,7 @@ import os
 
 samples = []
 
-for file in os.listdir("/mnt/c/Users/SMG/Desktop/Yeast_replicates_files"):
+for file in os.listdir("/mnt/c/Users/SMG/Desktop/Sequencing_class/HW8/Yeast_replicates_files"):
     if file.endswith(".fastq.gz"):
         samples.append(file)
 
